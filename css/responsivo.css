@@ -118,7 +118,7 @@
     }
 
     .card-item {
-        height: 200px;
+        height: 150px;
         padding-left: 110px;
         justify-content: center;
         align-items: start;
@@ -126,20 +126,21 @@
 
     .card-item .img-produto img {
         width: 80px;
-        height: 70px;
+        height: 100px;
     }
 
     .title-produto {
         margin-top: 0px!important;
         height: 30px!important;
         white-space: wrap;
+        font-size: 15px;
        /*  width: 100%; */
         text-align: left!important;
     }
 
     .price-produto {
         margin-bottom: 0px!important;
-        margin-top: 25px!important;
+        margin-top: 15px!important;
         font-size: 22px!important;
     }
 
@@ -163,6 +164,15 @@
     .reserva {
         padding-bottom: 50px;
     }
+
+    .card-secondary #btnReserva {
+        display: flex;
+    }
+
+    #btnReserva {
+        font-size: 12px;
+    }
+
 
     .card-secondary {
         padding: 45px;
